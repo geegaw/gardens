@@ -1,0 +1,60 @@
+<section id="plants">
+	<h2>Plants</h2>
+	
+	<section class="list"></section>
+	
+	<section class="form">
+		<form class="plantsform" data-id="" >
+			<fieldset>
+				<label>Name</label>
+				<input type="text" name="name" placeholder="name" class="required" value="" />
+			</fieldset>
+			
+			<fieldset>
+				<label>Sunlight Recommended (hrs)</label>
+				<input type="text" name="sunlight_high" placeholder="low end" value="" />
+				<input type="text" name="sunlight_low" placeholder="high end" value="" />
+			</fieldset>
+			
+			<fieldset>
+				<label>Ph Recommended</label>
+				<input type="text" name="ph_high" placeholder="low end" value="" />
+				<input type="text" name="ph_low" placeholder="high end" value="" />
+			</fieldset>
+			
+			<fieldset class="hide relationship">
+				<select class="relation ignore"></select>
+				<select class="type ignore">
+					<option value="companions">Companion</option>
+					<option value="allies">Ally</option>
+					<option value="enemies">Enemy</option>
+				</select>
+				<button type="button" class="add">Add Relation</button>
+			</fieldset>
+			
+			<div class="relations">
+				<h3>Companions</h3>
+				<ul class="companions"></ul>
+			</div>
+			
+			<div class="relations">
+				<h3>Allies</h3>
+				<ul class="allies"></ul>
+			</div>
+			
+			<div class="relations">
+				<h3>Enemies</h3>
+				<ul class="enemies"></ul>
+			</div>
+			
+			<fieldset>
+				<input type="submit" class="save noreset" value="save" />
+				<input type="submit" class="cancel noreset" value="cancel" />
+			</fieldset>
+			
+			<div class="errMsg"></div>
+		</form>
+	</section>
+
+</section>
+

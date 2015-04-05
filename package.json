@@ -1,0 +1,23 @@
+{
+  "name": "Garden",
+  "version": "0.0.1",
+  "author": "Christophe Vaugeois",
+  "email": "cavaugeois@gmail.com",
+  "licence": "",
+  "url": "http://www.kooolah.org",
+  "repository":{
+    "type": "git",
+    "url": "https://github.com/geegaw/Koolah"
+  },
+  "description": "Backend functionality for Koolah",
+  "devDependencies": {
+    "grunt": "~0.4.5",
+    "grunt-cli": "^0.1.13",
+    "grunt-contrib-jshint": "~0.11.0",
+    "grunt-contrib-concat": "~0.5.1",
+    "grunt-contrib-uglify": "~0.8.0",
+    "grunt-contrib-watch": "~0.6.1",
+    "grunt-contrib-less": "~0.12.0",
+    "grunt-contrib-requirejs": "~0.4.4"
+  }
+}

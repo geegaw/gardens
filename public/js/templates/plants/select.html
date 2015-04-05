@@ -1,0 +1,4 @@
+<option value=""></option>
+<% _.each(collection, function(model) { %>
+  	<option value="<%= model.id %>"><%= model.name %></option>
+<% }); %>
